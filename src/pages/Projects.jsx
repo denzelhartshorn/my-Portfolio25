@@ -50,8 +50,8 @@ Environment:
       link: "https://github.com/denzelhartshorn/BigDataSoccerAnalysis/tree/main", // Github link
     },
     {
-      title: "* Empty Project *",
-      description: "check back later !",
+      title: "* Project Loading ... *",
+      description: "check back soon !",
       details: "Details about Project Y will be provided soon.",
       imageUrl:
         "https://via.placeholder.com/600x400/e9ecef/6c757d?text=Empty+Project+Y",

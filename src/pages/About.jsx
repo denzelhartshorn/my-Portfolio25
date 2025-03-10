@@ -24,15 +24,20 @@ export default function About() {
         </Col>
         <Col md={8}>
           <p className="text-start">
-            Hi, I'm Denzel—a former athlete turned Product Manager who loves bringing discipline 
-            and teamwork from the field into the tech world. I’m passionate about creating 
-            products that truly serve users, whether that means conducting interviews, prioritizing 
-            features, or collaborating with cross-functional teams. My goal is to build solutions 
-            that make a tangible impact on people's lives.
+            Hi, I’m Denzel! A former athlete turned Product Manager & Software Engineer, 
+            passionate about building impactful products that bridge the gap between users 
+            and technology.  My journey from the field to the tech world has shaped my approach; 
+            balancing strategy, adaptability, and collaboration to create solutions that truly solve problems. Whether
+            I’m conducting user interviews, prioritizing features, or coding backend logic, I thrive 
+            at the intersection of business, technology, and user experience.           
           </p>
           <p className="text-start">
-            Outside of work, I enjoy coaching, staying active, and mentoring others who are 
-            transitioning into tech. I'm always excited to connect, collaborate, and keep 
+            I’ve worked on AI-driven analytics, blockchain applications, and big data projects, 
+            applying my computer science background and product expertise to craft solutions that scale. 
+          </p>
+          <p className="text-start">
+            Outside of work, I enjoy reading, working out, travelling, eating and mentoring other 
+            ex-jocks transitioning into tech. I'm always excited to connect, collaborate, and keep 
             growing as a product leader.
           </p>
           <Button
