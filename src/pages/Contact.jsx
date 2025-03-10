@@ -14,33 +14,19 @@ export default function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // On form submit, run reCAPTCHA v3, then proceed (no server shown here)
+  // On form submit, clear the form & show success message (no reCAPTCHA)
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Ensure the reCAPTCHA script is loaded
-    if (!window.grecaptcha) {
-      alert("reCAPTCHA not loaded yet. Please try again in a few seconds.");
-      return;
-    }
-
     try {
-      // Execute reCAPTCHA v3
-      const token = await window.grecaptcha.execute(
-        "6LeUnuIqAAAAAKBJXf3Xyt0GVcfS6bmvEQa_fY9Z",
-        { action: "submit" }
-      );
+      // Simulate a form submission (this is where you'd integrate EmailJS, Formspree, etc.)
+      console.log("Form Submitted:", formData);
 
-      // For demonstration, we'll just log the token
-      // In a real scenario, you would pass this token + formData
-      // to your server or a form service (EmailJS, Formspree, etc.)
-      console.log("reCAPTCHA v3 token:", token);
-
-      // Clear form & show success message (no actual email sending here)
+      // Clear form & show success message
       setStatus("SUCCESS");
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error("reCAPTCHA error:", err);
+      console.error("Form submission error:", err);
       setStatus("ERROR");
     }
   };
