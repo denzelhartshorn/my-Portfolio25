@@ -50,8 +50,8 @@ Environment:
       link: "https://github.com/denzelhartshorn/BigDataSoccerAnalysis/tree/main", // Github link
     },
     {
-      title: "Empty Project Y",
-      description: "Placeholder for upcoming project details.",
+      title: "* Empty Project *",
+      description: "check back later !",
       details: "Details about Project Y will be provided soon.",
       imageUrl:
         "https://via.placeholder.com/600x400/e9ecef/6c757d?text=Empty+Project+Y",
@@ -64,9 +64,9 @@ Environment:
       {/* Header */}
       <Row className="mb-4">
         <Col>
-          <h2 className="fw-bold text-start">My Projects</h2>
+          <h2 className="fw-bold text-start">Take a look at my work</h2>
           <p className="text-start text-muted mb-0">
-            Explore my recent work and upcoming projects.
+            Here are a few academic and personal projects I have completed
           </p>
         </Col>
       </Row>

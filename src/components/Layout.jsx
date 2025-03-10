@@ -14,7 +14,7 @@ export default function Layout() {
         <Container>
           {/* If you have a brand/logo, keep it here. Remove or comment out if not needed */}
           <Navbar.Brand as={Link} to="/">
-            Portfolio Home
+            Denzel's Portfolio
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbar-nav" />

@@ -1,5 +1,6 @@
 // src/pages/About.jsx
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import profilePic from "../assets/headshot2025.jpeg"; // Importing the profile image
 
 export default function About() {
   return (
@@ -15,10 +16,10 @@ export default function About() {
       <Row className="align-items-center">
         <Col md={4} className="text-center mb-3">
           <Image
-           src="/IMG_E39E26FCDE8B-1.jpeg" 
-           alt="Your Name" 
-           className="img-fluid rounded-circle" 
-           style={{ width: "200px", height: "200px", objectFit: "cover" }} 
+            src={profilePic} // Uses imported image
+            alt="Denzel Hartshorn"
+            className="img-fluid rounded-circle shadow"
+            style={{ width: "200px", height: "200px", objectFit: "cover", objectPosition: "center" }}
           />
         </Col>
         <Col md={8}>
@@ -36,7 +37,7 @@ export default function About() {
           </p>
           <Button
             variant="primary"
-            href="https://www.linkedin.com/in/denzel-hartshorn-147302106" 
+            href="https://www.linkedin.com/in/denzel-hartshorn-147302106"
             target="_blank"
           >
             Connect on LinkedIn
