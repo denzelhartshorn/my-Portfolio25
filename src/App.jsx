@@ -1,8 +1,9 @@
-import { useState } from 'react';
+// src/App.jsx
+import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 // Components and Pages
 import Layout from "./components/Layout";
@@ -12,12 +13,11 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 function App() {
-  // State for counter functionality
+  // State for counter functionality (example usage)
   const [count, setCount] = useState(0);
 
   return (
-    // Router wrapper for navigation
-    <Router>
+    <Router basename="/my-Portfolio25/">
       <Routes>
         {/* Main layout route with nested routes */}
         <Route path="/" element={<Layout />}>
